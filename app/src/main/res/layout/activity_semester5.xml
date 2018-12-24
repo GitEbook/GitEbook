@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_semester5"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/images"
+    tools:context="com.example.saitarun.git.SEMESTER5">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+    </ScrollView>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:text="Open Elective -II"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button36" />
+
+        <Button
+            android:text="Engineering Economics and Management"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button37"
+            android:onClick="bteem"/>
+
+        <Button
+            android:text="Database Management Systems"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button38"
+            android:onClick="btdbms"/>
+
+        <Button
+            android:text="Software Engineering"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button39"
+            android:onClick="btse"
+            />
+
+        <Button
+            android:text="Design and Analysis of Algorithms"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button40"
+            android:onClick="btdaa"/>
+
+        <Button
+            android:text="Formal Languages and Automata Theory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button41"
+            android:onClick="btflat"/>
+
+        <Button
+            android:text="Database Management Systems Laboratory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button42" />
+
+        <Button
+            android:text="Unified Modeling Language Laboratory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button65" />
+    </LinearLayout>
+
+
+</RelativeLayout>

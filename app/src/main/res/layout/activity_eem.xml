@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_eem"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/images"
+    tools:context="com.example.saitarun.git.eem">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+    </ScrollView>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:text="unit i"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button74" />
+
+        <Button
+            android:text="unit ii"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button75" />
+
+        <Button
+            android:text="unit iii"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button85" />
+
+        <Button
+            android:text="unit iv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button86" />
+
+        <Button
+            android:text="unit v"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button87" />
+    </LinearLayout>
+</RelativeLayout>

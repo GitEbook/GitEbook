@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_semester1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/images"
+    tools:context="com.example.saitarun.git.SEMESTER1">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+</ScrollView>
+
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:text="Engineering Mathematics-I"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button9"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textColor="@color/colorPrimaryDark" />
+
+        <Button
+            android:id="@+id/button12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Communicative English-I"
+            android:textColor="@color/colorPrimaryDark" />
+
+        <Button
+            android:text="Engineering Physics"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button13"
+            android:textColor="@color/colorPrimary"
+            android:onClick="btphy1" />
+
+        <Button
+            android:text="Engineering Chemistry"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button14"
+            android:textColor="@color/colorPrimary"
+            android:onClick="btche"/>
+
+        <Button
+            android:text="Programming With C"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button57"
+            android:textColor="@color/colorPrimaryDark"
+            android:onClick="btc"/>
+
+        <Button
+            android:text="Basic Electronics Engineering"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button58"
+            android:textColor="@color/colorPrimaryDark"/>
+
+        <Button
+            android:text=" Engineering Graphics"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button59"
+            android:textColor="@color/colorPrimaryDark"/>
+
+        <Button
+            android:text="Programming with C Laboratory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button60"
+            android:textColor="@color/colorPrimaryDark"/>
+
+        <Button
+            android:id="@+id/button61"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Engineering Chemistry Laboratory"
+            android:textColor="@color/colorPrimaryDark" />
+    </LinearLayout>
+
+
+</RelativeLayout>

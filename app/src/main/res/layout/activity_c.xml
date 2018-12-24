@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/images"
+    tools:context="com.example.saitarun.git.c">
+
+    <Button
+        android:id="@+id/button127"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="UNIT I"
+        android:textColor="@color/colorPrimaryDark"/>
+
+    <Button
+        android:id="@+id/button128"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="UNIT II"
+        android:textColor="@color/colorPrimaryDark"/>
+
+    <Button
+        android:id="@+id/button129"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="UNIT III"
+        android:textColor="@color/colorPrimaryDark"/>
+
+    <Button
+        android:id="@+id/button130"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="UNIT IV"
+        android:textColor="@color/colorPrimaryDark"/>
+
+    <Button
+        android:id="@+id/button131"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="UNIT V"
+        android:textColor="@color/colorPrimaryDark"/>
+</LinearLayout>

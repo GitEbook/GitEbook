@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_semester4"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/images"
+    tools:context="com.example.saitarun.git.SEMESTER4">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+    </ScrollView>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <Button
+            android:text="Engineering Mathematics-IV (Elective)"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button29" />
+
+        <Button
+            android:text="Open Elective -I"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button30" />
+
+        <Button
+            android:text="Environmental Studies"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button31" />
+
+        <Button
+            android:text="Programming with JAVA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button32" />
+
+        <Button
+            android:text="Operating Systems"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button33" />
+
+        <Button
+            android:text="Computer Networks"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button34"
+            android:onClick="btcn"/>
+
+        <Button
+            android:text="Programming with JAVA Laboratory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button35" />
+
+        <Button
+            android:text="Operating Systems Laboratory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button64" />
+    </LinearLayout>
+
+</RelativeLayout>

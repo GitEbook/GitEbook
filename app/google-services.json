@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "606853298557",
+    "firebase_url": "https://git3-bf6e0.firebaseio.com",
+    "project_id": "git3-bf6e0",
+    "storage_bucket": "git3-bf6e0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:606853298557:android:ed7512af8ac0e043",
+        "android_client_info": {
+          "package_name": "com.example.saitarun.git"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "606853298557-7umvvjm2onkto4nnpq36ucrjoi4qthjf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.saitarun.git",
+            "certificate_hash": "ea332b2f0e2f2aca508dc5d73c100776f1b2036f"
+          }
+        },
+        {
+          "client_id": "606853298557-8hp1i0ikducquemklni4usc6kehtav89.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "606853298557-8hp1i0ikducquemklni4usc6kehtav89.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1lhK1SnMQcXlHMsLC9c-l86-92eQSm_Y"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "606853298557-8hp1i0ikducquemklni4usc6kehtav89.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
